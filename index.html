@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <h1>Your Vote Counts</h1>
+
+    <hr>
+
+
+    <form class="credentials">
+        <input type="text" placeholder="Enter your first name..." class="input" id="firstname" />
+        <input type="number" placeholder="Enter your age..." class="input" id="age" />
+        <select class="select" id="Nationality">
+            <option selected disabled value="">Nationality</option>
+        
+            <option value="southafrican">South African</option>
+            
+            <option value="others">Others</option>
+
+        </select>
+        
+        
+
+        <button class="button" onclick="onSubmitButton()">Make your Vote</button>
+        <b>
+            <div class="halftmieBoard display" id="halftmieBoard">Display</div>
+
+            <div class="section" id='voters'></div>
+</form>
+</body>
+
+</html>
